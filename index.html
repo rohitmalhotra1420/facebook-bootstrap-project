@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Facebook</title>
+      <link rel="shortcut icon" href="images/titleicon.png" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--custom css file-->
+	<link href="css/custom.css" rel="stylesheet">
+	<!--fontawesome-->
+	<script src="https://use.fontawesome.com/c2854c2e83.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+
+</style>
+  </head>
+  <body>
+
+
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#3b5998;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" style="margin-left: 22px;padding-top:13px;"href="#"><i class="fa fa-facebook-official" style="color: white;"aria-hidden="true"></i></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <form class="navbar-form navbar-left"style="margin-top:12px;">
+      <div class="input-group">
+        <input type="text"  style="width:315px;" placeholder="Search Facebook">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+      <ul class="nav navbar-nav navbar-right"style="margin-right:235px;">
+        <li><a href="#" style="color: white;font-weight:bold;"><img src="images/own.jpg"style="height:20px;width:25px;margin-right:10px;">Rohit</a></li>
+        <li><a href="#"style="font-weight:bold;color: white;border-left: thick solid #355089;border-left-width: 2px;padding-top: 6px;padding-bottom: 7px;margin-top: 9px;">Home</a></li>
+		<li><a href="#"><i class="fa fa-users" style="font-size:19px;"data-toggle="tooltip" data-placement="bottom" title="Friend requests" aria-hidden="true"></i></a></li>
+		<li><a href="#"style="color: white;"><i class="fa fa-envelope"data-toggle="tooltip" data-placement="bottom" title="Messages" style="font-size:19px;"aria-hidden="true"></i><span class="badge"style="background-color:#fa3e3e;position:absolute;top:7px;padding-left: 1px;margin-right: 0px;padding-right: 2px;left: 29px;padding-bottom: 4px;padding-top: 4px;border-radius:0px;font-size: 10px;">11</span></a></li>
+		<li><a href="#"style="color: white;padding-right:20px;"><i class="fa fa-globe"data-toggle="tooltip" data-placement="bottom" title="Notifications"style="font-size:19px;" aria-hidden="true"></i><span class="badge" style="background-color:#fa3e3e;position:absolute;top:7px;padding-left: 1px;margin-right: 0px;padding-right: 2px;left: 29px;padding-bottom: 4px;padding-top: 4px;border-radius:0px;font-size: 10px;">20</span></a></li>
+		<li><a href="#"style="color: white;border-left: thick solid #355089;border-left-width: 2px;padding-top: 7px;padding-bottom: 7px;margin-top: 9px;"><i class="fa fa-question-circle"style="font-size:19px;"data-toggle="tooltip" data-placement="bottom" title="Quick Help" aria-hidden="true"></i></a></li>
+		<li class="dropdown">
+          <a href="#" style="font-size:19px;"class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+	      <li><a href="#">Rohit</a></li>
+	      <li role="separator" class="divider"></li>
+              <li><a href="#">Create Page</a></li>
+	     <li><a href="#">Manage Page</a></li>
+	     <li role="separator" class="divider"></li>
+             <li><a href="#">Create Group</a></li>
+	     <li><a href="#">Manage Group</a></li>
+             <li role="separator" class="divider"></li>
+            <li><a href="#">Create Adds</a></li>
+            <li><a href="#">Advertise on Facebook</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Actitvity Log</a></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+<div class="row"style="margin-top:62px;">
+
+
+
+
+<div class="hidden-xs col-md-2" >
+<ul class="nav nav-pills nav-stacked" style="float:right;margin-right:20px;">
+		          <li role="presentation"class="active"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/own.jpg"style="height:20px;width:20px;margin-right:10px;">Rohit Malhotra</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-weight:bold;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/newsfeed.png"style="height:20px;width:20px;margin-right:10px;">News Feed</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/messages.png"style="height:20px;width:20px;margin-right:10px;">Messenger</a></li>
+		          <li role="presentation"><h5 style="font-weight:bold;">Explore</h5></li>
+				  <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/events.png"style="height:20px;width:20px;margin-right:10px;">Events</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/groups.png"style="height:20px;width:20px;margin-right:10px;">Groups</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/pages.png"style="height:20px;width:20px;margin-right:10px;">Pages</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/friendlist.png"style="height:20px;width:20px;margin-right:10px;">Friend lists</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/games.png"style="height:20px;width:20px;margin-right:10px;">Games</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/pokes.png"style="height:20px;width:20px;margin-right:10px;">Pokes</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/apps.png"style="height:20px;width:20px;margin-right:10px;">Manage apps</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/shops.png"style="height:20px;width:20px;margin-right:10px;">Shops</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/offers.png"style="height:20px;width:20px;margin-right:10px;">Offers</a></li>
+		          <li role="presentation"><h5 style="font-weight:bold;">Create</h5></li>
+				</ul>
+
+<ul class="nav nav-pills"style="float:right;margin-right:3px;">
+					  <li role="presentation"><a href="#"style="padding:0px;font-size: 12px;">Advert</a></li>
+					  <li role="presentation"><a href="#"style="padding:0px;font-size: 12px;margin-left: 3px;">page</a></li>
+					  <li role="presentation"><a href="#"style="padding:0px;font-size: 12px;margin-left: 3px;">Groups</a></li>
+					  <li role="presentation"><a href="#"style="padding:0px;font-size: 12px;margin-left: 3px;">Events</a></li>
+		
+        		           </ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-md-5">
+
+
+ <div class="panel panel-default">
+ 
+ <div class="panel-heading"style="font-size: 13px;font-weight: bold;">
+				    <a href="#"style="color:#4b4f56;"id="header1" ><i class="fa fa-pencil" style="margin-right: 8px;" aria-hidden="true"></i>Create a Post</a><a href="#"id="header2"style="padding-left: 10px;margin-left: 10px;margin-right: 10px;padding-right: 10px;" ><i class="fa fa-picture-o"style="margin-right: 8px;" style="color:#4b4f56"aria-hidden="true"></i>Photo/Video Album</a><a href="#" id="header3" style="color:#4b4f56;"><i class="fa fa-video-camera"style="margin-right: 8px;" aria-hidden="true"></i>Live Video</a>
+				    
+</div>
+
+
+<div class="panel-body"style="padding:0px;">
+   
+	    <div class="col-md-12"style="padding:0px;">
+		<img src="images/own.jpg"style="height:40px;width:40px;position:absolute;margin:12px 0px 45px 20px;">
+		<textarea class="form-control" style="border-radius:0px;border:0px;padding:15px 0px 0px 75px;" rows="3" placeholder="What's on your mind?"id="comment"></textarea>
+	<hr style="margin:0;">
+	<div style="padding:5px 0px 5px 18px;"><span class="badge"style="background-color:#f6f7f9;color:#4b4f56;padding:8px 12px 8px 12px;"><i class="fa fa-picture-o"style="margin-right: 8px;color:#95cf52;font-size:14px;"aria-hidden="true"></i>Photo/Video</span><span class="badge"style="background-color:#f6f7f9;padding:8px 12px 8px 12px;color:#4b4f56;margin:0px 7px 0px 7px;"><i class="fa fa-smile-o"style="margin-right: 8px;color:#f5c74c;font-size:14px;" aria-hidden="true"></i>Feeling/Actitvity</span><span class="badge"style="background-color:#f6f7f9;color:#4b4f56;padding:8px 12px 8px 12px;"><span class="glyphicon glyphicon-option-horizontal"style="color:#949ba9;"></span></span></div>
+	</div>
+</div>
+ </div>
+ 	    <div class="panel panel-default">
+				    
+							 
+							  <div class="panel-body"style="padding-bottom:5px;">
+							  <h4 class="panel-title" style="height:27px;"><a href="#" style="font-size:20px;color:#3b5998;font-size:14px;font-weight:bold;"><img src="images/luis.jpg"style="height:40px;width:40px;margin-right:10px;">LuisFonsiVEVO</a></h4>
+				    <h6 style="margin-left:52px;margin-top:0px;margin-bottom:16px;color:#93979f;">10 mins ago.  <span class="glyphicon glyphicon-globe" aria-hidden="true"></span></h6>
+					
+    <div class="embed-responsive embed-responsive-16by9">
+	<iframe width="500" height="315" class="embed-responsive-item"src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allowfullscreen></iframe>    <!-- Linking iframe to fit youtube video in page as a post -->
+	</div>
+	<hr style="margin-top:9px;margin-bottom:9px;">
+			                   <div style="margin-left:7px;"> <span><span class="glyphicon glyphicon-thumbs-up" style="padding-right: 8px;"aria-hidden="true"></span><a href="#" style="color:black;">Like</a></span>
+			                    <span style="margin-left:30px;"><span class="glyphicon glyphicon-comment"style="padding-right: 8px;" aria-hidden="true"></span><a href="#" style="color:black;">Comment</a></span>
+			                    <span style="margin-left:30px;"><i class="fa fa-share-alt"style="padding-right: 8px;" aria-hidden="true"></i><a href="#" style="color:black;">Share</a></span>
+								</div>
+			                     </div>
+				   <div class="panel-footer">
+				   	<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							     <img src="images/facebook.png"style="height:30px;width:30px;margin-right:10px;">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							<p class="Comment"> <span><a href="#"class="bold">User A </a></span>Awesome Song </p>
+							<div>
+							<small> 
+							<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+							</small>
+                            </div>    
+						   </div>
+							</div>
+
+							<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							      <img src="images/facebook.png"style="height:30px;width:30px;margin-right:10px;">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							<p class="Comment"> <span><a href="#"class="bold">User B </a></span> Nice Song </p>
+							<small> 
+							<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+							</small>
+                            </div>    
+						   </div>
+							</div>
+							<img src="images/facebook.png"style="height:30px;width:30px;margin-right:10px;margin-left:15px;">
+							
+<input placeholder="Write a comment..." style="width: 86%;margin-top: 15px;margin-bottom:15px;">
+
+
+							</div>
+ 	    <div class="panel panel-default">
+				    
+							 
+							  <div class="panel-body"style="padding-bottom:5px;">
+							  <h4 class="panel-title" style="height:27px;"><a href="#" style="font-size:20px;color:#3b5998;font-size:14px;font-weight:bold;"><img src="images/post2.jpg"style="height:40px;width:40px;margin-right:10px;">The Best Posts</a></h4>
+				    <h6 style="margin-left:52px;margin-top:0px;margin-bottom:16px;color:#93979f;">10 mins ago.  <span class="glyphicon glyphicon-globe" aria-hidden="true"></span></h6>
+					
+    <div class="">
+	<img src="images/post2media.jpg" style="width:100%;">    <!-- Linking iframe to fit youtube video in page as a post -->
+	</div>
+	<hr style="margin-top:9px;margin-bottom:9px;">
+			                   <div style="margin-left:7px;"> <span><span class="glyphicon glyphicon-thumbs-up" style="padding-right: 8px;"aria-hidden="true"></span><a href="#" style="color:black;">Like</a></span>
+			                    <span style="margin-left:30px;"><span class="glyphicon glyphicon-comment"style="padding-right: 8px;" aria-hidden="true"></span><a href="#" style="color:black;">Comment</a></span>
+			                    <span style="margin-left:30px;"><i class="fa fa-share-alt"style="padding-right: 8px;" aria-hidden="true"></i><a href="#" style="color:black;">Share</a></span>
+								</div>
+			                     </div>
+				   <div class="panel-footer">
+				   	<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							     <img src="images/facebook.png"style="height:30px;width:30px;margin-right:10px;">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							<p class="Comment"> <span><a href="#" class="bold">User A </a></span>Well Said. </p>
+							<div>
+							<small> 
+							<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+							</small>
+                            </div>    
+						   </div>
+							</div>
+
+							<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							      <img src="images/facebook.png"style="height:30px;width:30px;margin-right:10px;">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							<p class="Comment"> <span><a href="#"class="bold">User B </a></span> Nice Lines </p>
+							<small> 
+							<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+							</small>
+                            </div>    
+						   </div>
+							</div>
+							<img src="images/facebook.png"style="height:30px;width:30px;margin-right:10px;margin-left:15px;">
+							
+<input placeholder="Write a comment..." style="width: 86%;margin-top: 15px;margin-bottom:15px;">
+
+
+							</div>
+ 	    <div class="panel panel-default">
+				    
+							 
+							  <div class="panel-body"style="padding-bottom:5px;">
+							  <h4 class="panel-title" style="height:27px;"><a href="#" style="font-size:20px;color:#3b5998;font-size:14px;font-weight:bold;"><img src="images/post3.png"style="height:40px;width:40px;margin-right:10px;">Thoughts World</a></h4>
+				    <h6 style="margin-left:52px;margin-top:0px;margin-bottom:16px;color:#93979f;">10 mins ago.  <span class="glyphicon glyphicon-globe" aria-hidden="true"></span></h6>
+					
+    <div class="">
+<blockquote class="blockquote">
+  <p class="mb-0">Every bad situation has some good. Even a stopped clock shows the right time twice a day.</p>
+</blockquote>
+</div>
+	<hr style="margin-top:9px;margin-bottom:9px;">
+			                   <div style="margin-left:7px;"> <span><span class="glyphicon glyphicon-thumbs-up" style="padding-right: 8px;"aria-hidden="true"></span><a href="#" style="color:black;">Like</a></span>
+			                    <span style="margin-left:30px;"><span class="glyphicon glyphicon-comment"style="padding-right: 8px;" aria-hidden="true"></span><a href="#" style="color:black;">Comment</a></span>
+			                    <span style="margin-left:30px;"><i class="fa fa-share-alt"style="padding-right: 8px;" aria-hidden="true"></i><a href="#" style="color:black;">Share</a></span>
+								</div>
+			                     </div>
+				   <div class="panel-footer">
+				   	<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							     <img src="images/facebook.png"style="height:30px;width:30px;margin-right:10px;">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							<p class="Comment"> <span><a href="#" class="bold">User A </a></span>Well Said. </p>
+							<div>
+							<small> 
+							<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+							</small>
+                            </div>    
+						   </div>
+							</div>
+
+							<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							      <img src="images/facebook.png"style="height:30px;width:30px;margin-right:10px;">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							<p class="Comment"> <span><a href="#"class="bold">User B </a></span> Nice Lines </p>
+							<small> 
+							<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+							</small>
+                            </div>    
+						   </div>
+							</div>
+							<img src="images/facebook.png"style="height:30px;width:30px;margin-right:10px;margin-left:15px;">
+							
+<input placeholder="Write a comment..." style="width: 86%;margin-top: 15px;margin-bottom:15px;">
+
+
+							</div>
+ 
+ 
+ 	    <div class="panel panel-default">
+				    
+							 
+							  <div class="panel-body"style="padding-bottom:5px;">
+							  <h4 class="panel-title" style="height:27px;"><a href="#" style="font-size:20px;color:#3b5998;font-size:14px;font-weight:bold;"><img src="images/tseries.png"style="height:40px;width:40px;margin-right:10px;">T-Series</a></h4>
+				    <h6 style="margin-left:52px;margin-top:0px;margin-bottom:16px;color:#93979f;">10 mins ago.  <span class="glyphicon glyphicon-globe" aria-hidden="true"></span></h6>
+					
+    <div class="embed-responsive embed-responsive-16by9">
+	<iframe width="500" height="315" class="embed-responsive-item"src="https://www.youtube.com/embed/Kd57YHWqrsI" frameborder="0" allowfullscreen></iframe>    <!-- Linking iframe to fit youtube video in page as a post -->
+	</div>
+	<hr style="margin-top:9px;margin-bottom:9px;">
+			                   <div style="margin-left:7px;"> <span><span class="glyphicon glyphicon-thumbs-up" style="padding-right: 8px;"aria-hidden="true"></span><a href="#" style="color:black;">Like</a></span>
+			                    <span style="margin-left:30px;"><span class="glyphicon glyphicon-comment"style="padding-right: 8px;" aria-hidden="true"></span><a href="#" style="color:black;">Comment</a></span>
+			                    <span style="margin-left:30px;"><i class="fa fa-share-alt"style="padding-right: 8px;" aria-hidden="true"></i><a href="#" style="color:black;">Share</a></span>
+								</div>
+			                     </div>
+				   <div class="panel-footer">
+				   	<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							     <img src="images/rohit.jpg"style="height:30px;width:30px;margin-right:10px;">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							<p class="Comment"> <span><a href="#">Rohit Malhotra </a></span>Awesome Song </p>
+							<div>
+							<small> 
+							<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+							</small>
+                            </div>    
+						   </div>
+							</div>
+
+							<div class="media">
+							  <div class="media-left">
+							    <a href="#">
+							      <img src="images/mukesh.jpg"style="height:30px;width:30px;margin-right:10px;">
+							    </a>
+							  </div>
+							  <div class="media-body">
+							<p class="Comment"> <span><a href="#">Mukesh Dubey </a></span> Att Song </p>
+							<small> 
+							<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+							</small>
+                            </div>    
+						   </div>
+							</div>
+							<img src="images/navbar.jpg"style="height:30px;width:30px;margin-right:10px;margin-left:15px;">
+							
+<input placeholder="Write a comment..." style="width: 86%;margin-top: 15px;margin-bottom:15px;">
+
+
+							</div>
+ 
+
+ 
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hidden-xs col-md-3">
+
+<div class="container-fluid"style="background-color:white;padding-top:12px;">
+<h5 style="display:inline-block;font-weight:bold;">Trending</h5><ul class="nav nav-pills"style="float:right;">
+    <li class="active"><a data-toggle="pill" href="#home"><i class="fa fa-futbol-o" aria-hidden="true"></i></a></li>
+    <li><a data-toggle="pill" href="#menu1"><i class="fa fa-futbol-o" aria-hidden="true"></i></a></li>
+    <li><a data-toggle="pill" href="#menu2"><i class="fa fa-futbol-o" aria-hidden="true"></i></a></li>
+    <li><a data-toggle="pill" href="#menu3"><i class="fa fa-futbol-o" aria-hidden="true"></i></a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+	</div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+    <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    
+    <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    
+    <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+  </div>
+
+
+
+
+</div>
+
+
+
+<div class="container-fluid"style="background-color:white;padding:10px 12px 12px 15px;margin-top:15px;">
+<h5 style="display:inline-block;margin-top: 0px;font-weight: bold;">Suggested Pages</h6><a href="#"style="float:right;">See all</a>
+<div id="myCarousel" class="carousel slide embed-responsive embed-responsive-16by9" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="images/rm.jpg" alt="Los Angeles" style="width:100%;">
+     
+      </div>
+
+      <div class="item">
+        <img src="images/rm.jpg" alt="Chicago" style="width:100%;">
+       
+      </div>
+    
+      <div class="item">
+        <img src="images/rm.jpg" alt="New York" style="width:100%;">
+              </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<h5>Facebook Project</h5>
+ <h6>Fresher Developer  125 likes</h6>
+  <button type="button"class="btn btn-default "><span class="glyphicon glyphicon-thumbs-up" style="padding-right: 8px;"aria-hidden="true"></span>Like Page</button>
+  
+</div>
+
+</div>
+
+<div class="hidden-xs col-md-2">
+<div class="row">
+
+	<ul class="nav nav-pills nav-stacked" style="float:right;margin-right:15px;">
+				<li role="presentation"style="margin-bottom:31px;margin-top:15px;font-size:9px;"><i class="fa fa-circle" style="color:#98cf74;"aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:31px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:29px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:29px;font-size:9px;"><i class="fa fa-circle" style="color:#98cf74;"aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:29px;font-size:9px;"><i class="fa fa-circle" style="color:#98cf74;"aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:29px;font-size:9px;"><i class="fa fa-circle" style="color:#98cf74;"aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:31px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:31px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:31px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:31px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:31px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:29px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:29px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:29px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				<li role="presentation"style="margin-bottom:29px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+			    <li role="presentation"style="margin-bottom:29px;font-size:9px;"><i class="fa fa-circle"style="color:#98cf74;" aria-hidden="true"></i></li>
+				
+				
+				</ul>
+
+
+<ul class="nav nav-pills nav-stacked" style="float:right;margin-right:20px;">
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User One</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Two</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Three</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Four</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Five</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Six</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Seven</a></li>
+				  <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Eight</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Nine</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Ten</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Eleven</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Twelve</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Thirteen</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Fourteen</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;"href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Fifteen</a></li>
+		          <li role="presentation"><a style="color: #1d2129;font-size: 13px;padding-top: 5px;padding-bottom: 5px;padding-right: 15px;padding-left: 5px;" href="#"><img src="images/facebook.png"style="height:30px;width:30px;margin-right:8px;">User Sixteen</a></li>
+		          
+				</ul>
+
+			
+				
+				
+</div>
+<form class="navbar-form"style="position:fixed;bottom:0;margin-bottom:0px;">
+      <div class="input-group">
+        <i class="glyphicon glyphicon-search"style="position:absolute;    margin-top: 7px;margin-left: 3px;font-size: 10px;"></i>
+		<input type="text"  style="width:auto;padding-left:13px;" placeholder="Search">
+      </div>
+    </form>
+
+</div>
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
